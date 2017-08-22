@@ -6,8 +6,14 @@
 //  Copyright © 2017 zooft. All rights reserved.
 //
 
-import UIKit
+import RealmSwift
 
 class Member: Object {
-
+  dynamic var _id: String?
+  dynamic var role: String?
+  dynamic var lastSeenAt: String?
+  
+  override class func primaryKey() -> String? {
+    return "_id"
+  }
 }

@@ -6,8 +6,24 @@
 //  Copyright © 2017 zooft. All rights reserved.
 //
 
-import UIKit
+import RealmSwift
 
-class TeamService: AnyObject {
-
+class TeamService: NSObject {
+  func createAndUpdate(teams: [[String:Any]]?) {
+    
+    guard let teams = teams else {
+      return
+    }
+    
+    do{
+      let realm = try Realm()
+      
+      try realm.write {
+        for team in teams {
+          realm.create(Team.self, value: team, update: true)
+        }
+      }
+      
+    } catch {}
+  }
 }

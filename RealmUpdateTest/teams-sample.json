@@ -1,0 +1,38 @@
+[{
+ "channelId": "AB1",
+ "title": "Test A",
+ "description": "sample description",
+ "createdAt": "2017-05-09T18:11:53Z",
+ "logo": "https://thumb1.shutterstock.com/display_pic_with_logo/2141105/212234269/stock-vector-varsity-college-school-league-sport-team-logo-concept-apparel-design-212234269.jpg",
+ "members": [{
+             "_id": "12",
+             "role": "Admin",
+             "lastSeenAt": "2017-08-09T18:11:53Z"
+             },
+             {
+             "_id": "1",
+             "role": "Collaborator",
+             "lastSeenAt": "2017-08-09T08:11:53Z"
+             }
+             ]
+ },
+ {
+ "channelId": "AB2",
+ "title": "Test B",
+ "description": "sample description B",
+ "createdAt": "2017-06-14T18:11:53Z",
+ "logo": "https://thumb7.shutterstock.com/display_pic_with_logo/1434929/270996839/stock-vector-modern-professional-vector-dream-team-logo-for-a-basketball-team-270996839.jpg",
+ "members": [{
+             "_id": "122",
+             "role": "Admin",
+             "lastSeenAt": "2017-08-09T19:10:53Z"
+             },
+             {
+             "_id": "1",
+             "role": "Collaborator",
+             "lastSeenAt": "2017-08-09T08:09:53Z"
+             }
+             ]
+ }
+ 
+ ]
